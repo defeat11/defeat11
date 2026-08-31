@@ -24,8 +24,10 @@
 | المشروع | ماذا يفعل |
 |---|---|
 | [Sanad](https://github.com/defeat11/sanad) | بوت دعم لا يهلوس: يجيب مما دُرّب عليه، أو يعترف بأنه لا يعرف |
+| [ai-cv-coach-bot](https://github.com/defeat11/ai-cv-coach-bot) | مدرب سيرة ذاتية على تيليجرام: عزل مستخدمين صارم وقاطع دائرة وميزانيات |
 | [sawt-agent](https://github.com/defeat11/sawt-agent) | منصة صوت عربي: نطق من خمس مراحل + وكيل مكالمات حيّ |
 | [antigravity-acp](https://github.com/defeat11/antigravity-acp) | سرب وكلاء برمجة متوازٍ يتحقق من نفسه بقراءة رمز الخروج |
+| [antigravity-openai-bridge](https://github.com/defeat11/antigravity-openai-bridge) | جسر HTTP متوافق مع OpenAI فوق وكيل ACP — بجلسة تنجو من إعادة التشغيل |
 | [maktaba](https://github.com/defeat11/maktaba) | يفهرس كل مشروع على جهازك، ويشغّله ليتأكد أنه ما زال يعمل |
 
 ### رؤية حاسوبية وعتاد
@@ -40,6 +42,16 @@
 | المشروع | ماذا يفعل |
 |---|---|
 | [pptx-studio](https://github.com/defeat11/pptx-studio) | يثبت حسابياً أن النص لن يفيض عن الشريحة — قبل أن يفتحها أحد |
+| [lte-signal-doctor](https://github.com/defeat11/lte-signal-doctor) | تشخيص إشارة مودم LTE: قياس آلي عبر أتمتة المتصفح وتحليل بتعلم الآلة |
+| [wasapi-gapless-recorder](https://github.com/defeat11/wasapi-gapless-recorder) | تسجيل صوت النظام مع تقسيم WAV بلا فجوة واحدة بين المقاطع |
+| [blueprint-3d-visualizer](https://github.com/defeat11/blueprint-3d-visualizer) | يحوّل توزيع المساحات 2D إلى برومبتات معمارية 3D حتمية |
+
+### معماريات موثّقة (الكود لدى جهة العمل)
+
+| المشروع | ماذا يوثّق |
+|---|---|
+| [pdf-xray-architecture](https://github.com/defeat11/pdf-xray-architecture) | محرّك تحليل PDF حتمي: OCR محلي بلا إنترنت + نموذج ثقة ومصدر |
+| [tamper-evident-inventory-architecture](https://github.com/defeat11/tamper-evident-inventory-architecture) | سجل تدقيق للإضافة فقط تفرضه SQLite Triggers — يرفض التعديل حتى بالوصول المباشر |
 
 ---
 
@@ -73,7 +85,7 @@ I build systems for real operational problems: automating 1,800+ devices, bridgi
 
 Every repository here is a **case study** — the problem, the engineering decision, and the result in numbers. Each has an English README.
 
-**Latest:** [sanad-power-connector](https://github.com/defeat11/sanad-power-connector) — a Power Platform custom connector that puts the Sanad support bot behind Teams and Power Automate.
+**Highlights:** [ai-cv-coach-bot](https://github.com/defeat11/ai-cv-coach-bot) — a multi-user Telegram CV coach with strict per-user isolation and circuit-breaker AI gating · [sanad-power-connector](https://github.com/defeat11/sanad-power-connector) — a Power Platform custom connector that puts the Sanad support bot behind Teams and Power Automate · [lte-signal-doctor](https://github.com/defeat11/lte-signal-doctor) — networks, ML and browser automation in one diagnostics tool.
 
 **Platforms:** Power Platform (Power Apps · Power Automate · Power BI) · Microsoft 365 · Intune · SharePoint
 **Integrations:** Graph API · REST · On-Premises Data Gateway · Webhooks · JD Edwards ERP
