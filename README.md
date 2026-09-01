@@ -14,8 +14,7 @@
 
 | المشروع | ماذا يفعل |
 |---|---|
-| [LabelBridge](https://github.com/defeat11/labelbridge) | صفحة ويب تطبع ملصق باركود عربي على طابعة Zebra عبر البلوتوث |
-| [meeting-kitchen](https://github.com/defeat11/meeting-kitchen) | طلبات ضيافة غرف الاجتماعات — PWA بلا إنترنت + Power Automate |
+| [LabelBridge](https://github.com/defeat11/labelbridge) | صفحة ويب تطبع ملصق باركود عربي على طابعة Zebra عبر البلوتوث — الحل موثّق، والشيفرة غير منشورة |
 | [win-iso-updater](https://github.com/defeat11/win-iso-updater) | فلاشة ويندوز قديمة تدخل، ISO محدَّث يطلع — بأمر واحد |
 | [sanad-power-connector](https://github.com/defeat11/sanad-power-connector) | موصل Power Platform مخصص: سؤال في Teams، وجواب سَنَد الموثّق |
 
@@ -24,7 +23,6 @@
 | المشروع | ماذا يفعل |
 |---|---|
 | [Sanad](https://github.com/defeat11/sanad) | بوت دعم لا يهلوس: يجيب مما دُرّب عليه، أو يعترف بأنه لا يعرف |
-| [ai-cv-coach-bot](https://github.com/defeat11/ai-cv-coach-bot) | مدرب سيرة ذاتية على تيليجرام: عزل مستخدمين صارم وقاطع دائرة وميزانيات |
 | [sawt-agent](https://github.com/defeat11/sawt-agent) | منصة صوت عربي: نطق من خمس مراحل + وكيل مكالمات حيّ |
 | [antigravity-acp](https://github.com/defeat11/antigravity-acp) | سرب وكلاء برمجة متوازٍ يتحقق من نفسه بقراءة رمز الخروج |
 | [antigravity-openai-bridge](https://github.com/defeat11/antigravity-openai-bridge) | جسر HTTP متوافق مع OpenAI فوق وكيل ACP — بجلسة تنجو من إعادة التشغيل |
@@ -85,7 +83,9 @@ I build systems for real operational problems: automating 1,800+ devices, bridgi
 
 Every repository here is a **case study** — the problem, the engineering decision, and the result in numbers. Each has an English README.
 
-**Highlights:** [ai-cv-coach-bot](https://github.com/defeat11/ai-cv-coach-bot) — a multi-user Telegram CV coach with strict per-user isolation and circuit-breaker AI gating · [sanad-power-connector](https://github.com/defeat11/sanad-power-connector) — a Power Platform custom connector that puts the Sanad support bot behind Teams and Power Automate · [lte-signal-doctor](https://github.com/defeat11/lte-signal-doctor) — networks, ML and browser automation in one diagnostics tool.
+**Highlights:** [sanad-power-connector](https://github.com/defeat11/sanad-power-connector) — a Power Platform custom connector that puts an on-prem support bot behind Teams · [lte-signal-doctor](https://github.com/defeat11/lte-signal-doctor) — networks, ML and browser automation in one diagnostics tool · [sawt-secretary](https://github.com/defeat11/sawt-secretary) — SIP, RTP and G.711 written from scratch on Android.
+
+Some systems here are documented as architecture only, because the code belongs to my employer or is not distributed.
 
 **Platforms:** Power Platform (Power Apps · Power Automate · Power BI) · Microsoft 365 · Intune · SharePoint
 **Integrations:** Graph API · REST · On-Premises Data Gateway · Webhooks · JD Edwards ERP
