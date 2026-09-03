@@ -2,9 +2,9 @@
 
 **مشرف تقنية معلومات ومطوّر حلول — السعودية.**
 
-12+ سنة في تقنية المعلومات. أبني أنظمة تحل مشاكل تشغيلية حقيقية: من أتمتة 1800 جهاز، إلى جسر يطبع ملصقاً على طابعة بلوتوث، إلى وكلاء ذكاء اصطناعي يتحققون من عملهم بأنفسهم.
+12+ سنة في تقنية المعلومات. أبني أنظمة تحل مشاكل شغل حقيقية: من أتمتة 1,800 جهاز، إلى صفحة ويب تطبع على طابعة بلوتوث، إلى وكلاء ذكاء اصطناعي يراجعون شغلهم بنفسهم.
 
-كل مستودع هنا **دراسة حالة**: المشكلة، القرار الهندسي، والنتيجة بالأرقام.
+كل مستودع هنا **دراسة حالة**: وش كانت المشكلة، وش قررت، وش طلعت النتيجة بالأرقام.
 
 ---
 
@@ -14,42 +14,43 @@
 
 | المشروع | ماذا يفعل |
 |---|---|
-| [LabelBridge](https://github.com/defeat11/labelbridge) | صفحة ويب تطبع ملصق باركود عربي على طابعة Zebra عبر البلوتوث — الحل موثّق، والشيفرة غير منشورة |
+| [LabelBridge](https://github.com/defeat11/labelbridge) | تطبع ملصق باركود عربي على طابعة Zebra بالبلوتوث، من صفحة ويب مباشرة. الحل موثّق هنا والكود مو منشور |
 | [win-iso-updater](https://github.com/defeat11/win-iso-updater) | فلاشة ويندوز قديمة تدخل، ISO محدَّث يطلع — بأمر واحد |
-| [sanad-power-connector](https://github.com/defeat11/sanad-power-connector) | موصل Power Platform مخصص: سؤال في Teams، وجواب سَنَد الموثّق |
+| [meeting-kitchen](https://github.com/defeat11/meeting-kitchen) | طلبات ضيافة غرف الاجتماعات: تطبيق يشتغل بدون إنترنت، وربط مع Power Automate |
+| [sanad-power-connector](https://github.com/defeat11/sanad-power-connector) | Custom Connector يخلي الموظف يسأل من Teams، ويجيه جواب سَنَد الموثّق |
 
 ### ذكاء اصطناعي
 
 | المشروع | ماذا يفعل |
 |---|---|
-| [Sanad](https://github.com/defeat11/sanad) | بوت دعم لا يهلوس: يجيب مما دُرّب عليه، أو يعترف بأنه لا يعرف |
-| [sawt-agent](https://github.com/defeat11/sawt-agent) | منصة صوت عربي: نطق من خمس مراحل + وكيل مكالمات حيّ |
-| [antigravity-acp](https://github.com/defeat11/antigravity-acp) | سرب وكلاء برمجة متوازٍ يتحقق من نفسه بقراءة رمز الخروج |
-| [antigravity-openai-bridge](https://github.com/defeat11/antigravity-openai-bridge) | جسر HTTP متوافق مع OpenAI فوق وكيل ACP — بجلسة تنجو من إعادة التشغيل |
-| [maktaba](https://github.com/defeat11/maktaba) | يفهرس كل مشروع على جهازك، ويشغّله ليتأكد أنه ما زال يعمل |
+| [Sanad](https://github.com/defeat11/sanad) | بوت دعم ما يخترع إجابات: يرد من قاعدة معتمدة، أو يقول «ما أعرف» |
+| [sawt-agent](https://github.com/defeat11/sawt-agent) | منصة صوت عربي: خط نطق من خمس مراحل، ووكيل يرد على المكالمات مباشرة |
+| [antigravity-acp](https://github.com/defeat11/antigravity-acp) | يشغّل وكلاء برمجة بالتوازي، ويتأكد من شغلهم بقراءة نتيجة أمر البناء نفسه |
+| [antigravity-openai-bridge](https://github.com/defeat11/antigravity-openai-bridge) | يخلي أي عميل OpenAI يكلم وكيل ACP، والمحادثة تكمل حتى لو رجّعت الخادم |
+| [maktaba](https://github.com/defeat11/maktaba) | يفهرس كل مشروع على جهازك، ويشغّله بنفسه عشان يتأكد إنه لسه شغّال |
 
 ### رؤية حاسوبية وعتاد
 
 | المشروع | ماذا يفعل |
 |---|---|
-| [nvr-zone-guard](https://github.com/defeat11/nvr-zone-guard) | كشف تسلل متعدد الكاميرات: YOLOv8 + مضلّع + مدة مكوث |
-| [sawt-secretary](https://github.com/defeat11/sawt-secretary) | مكدّس SIP و RTP مكتوب باليد يجسر مكالمة حقيقية إلى نموذج صوتي |
+| [nvr-zone-guard](https://github.com/defeat11/nvr-zone-guard) | يراقب عدة كاميرات، وينبّهك إذا دخل شخص منطقة محددة وقعد فيها |
+| [sawt-secretary](https://github.com/defeat11/sawt-secretary) | بروتوكولات SIP و RTP مكتوبة من الصفر، توصّل مكالمة هاتف حقيقية بنموذج صوتي |
 
 ### أدوات
 
 | المشروع | ماذا يفعل |
 |---|---|
-| [pptx-studio](https://github.com/defeat11/pptx-studio) | يثبت حسابياً أن النص لن يفيض عن الشريحة — قبل أن يفتحها أحد |
-| [lte-signal-doctor](https://github.com/defeat11/lte-signal-doctor) | تشخيص إشارة مودم LTE: قياس آلي عبر أتمتة المتصفح وتحليل بتعلم الآلة |
-| [wasapi-gapless-recorder](https://github.com/defeat11/wasapi-gapless-recorder) | تسجيل صوت النظام مع تقسيم WAV بلا فجوة واحدة بين المقاطع |
-| [blueprint-3d-visualizer](https://github.com/defeat11/blueprint-3d-visualizer) | يحوّل توزيع المساحات 2D إلى برومبتات معمارية 3D حتمية |
+| [pptx-studio](https://github.com/defeat11/pptx-studio) | يبني عروض PowerPoint، ويتأكد بالحساب إن النص ما بيطلع برا الشريحة قبل ما تفتحها |
+| [lte-signal-doctor](https://github.com/defeat11/lte-signal-doctor) | يشخّص إشارة مودم LTE: يقيسها تلقائياً من واجهة المودم، ويحللها بـ machine learning |
+| [wasapi-gapless-recorder](https://github.com/defeat11/wasapi-gapless-recorder) | يسجّل صوت النظام ويقسّمه ملفات، بدون ما يضيع ولا جزء من الصوت بين مقطع ومقطع |
+| [blueprint-3d-visualizer](https://github.com/defeat11/blueprint-3d-visualizer) | يحوّل مخطط مساحات 2D إلى وصف معماري 3D جاهز — ونفس المدخل يعطي نفس الناتج دايماً |
 
 ### معماريات موثّقة (الكود لدى جهة العمل)
 
 | المشروع | ماذا يوثّق |
 |---|---|
-| [pdf-xray-architecture](https://github.com/defeat11/pdf-xray-architecture) | محرّك تحليل PDF حتمي: OCR محلي بلا إنترنت + نموذج ثقة ومصدر |
-| [tamper-evident-inventory-architecture](https://github.com/defeat11/tamper-evident-inventory-architecture) | سجل تدقيق للإضافة فقط تفرضه SQLite Triggers — يرفض التعديل حتى بالوصول المباشر |
+| [pdf-xray-architecture](https://github.com/defeat11/pdf-xray-architecture) | محرّك يستخرج بيانات من ملفات PDF: OCR يشتغل بدون إنترنت، وكل قيمة معها مصدرها ودرجة الثقة فيها |
+| [tamper-evident-inventory-architecture](https://github.com/defeat11/tamper-evident-inventory-architecture) | سجل ما ينحذف ولا يتعدّل: SQLite Triggers ترفض أي تعديل، حتى لو دخلت على القاعدة مباشرة |
 
 ---
 
